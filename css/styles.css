@@ -2652,6 +2652,7 @@ ul.institute,
 .academics-wrapper {
   padding: 0 50px;
   overflow: hidden;
+  margin-bottom: 60px;
 }
 .academics-wrapper .academy {
   padding-bottom: 60px;
@@ -2676,7 +2677,7 @@ ul.institute,
   margin: 33px 0;
 }
 .academy-tabs {
-  padding-top: 60px;
+  padding-top: 0px;
 }
 .academy-tabs ul {
   margin-bottom: 70px !important;
@@ -3052,12 +3053,20 @@ ul.institute,
 }
 /***************End of Apply now screen  styles*************/
 
-.image-highlighter-wrapper {
-  background-image: url("../images/procedure.png");
+.bg-img-text-wrapper {
   background-repeat: no-repeat;
-  height: 644px;
   height: 610px;
   background-size: cover;
+  border-radius: 10px;
+}
+.image-pro {
+  background-image: url("../images/procedure.png");
+}
+.image-edu {
+  background-image: url("../images/edu.png");
+}
+.image-academy {
+  background-image: url("../images/academy.png");
 }
 .row {
   margin: 0;
@@ -3073,36 +3082,40 @@ ul.institute,
   min-height: 305px;
   border-right: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  position: relative;
   overflow: hidden;
+  padding: 20px;
 }
 .row:last-child .col {
   border-bottom: none;
 }
 .thumb-anim {
   transition: 0.5s;
-  transform: translateY(10%);
-  margin-top: auto; /* pushes all content to bottom */
+  transform: translateY(100%);
+  margin-top: auto;
   position: relative;
 }
 .thumb-title {
   transition: 0.5s;
-  transform: translate(25%, -200%);
+  transform: translateY(-100%);
+  font-size: 20px;
+  line-height: 2.35;
+  font-weight: 400;
+  text-align: center;
 }
-.thumb-description {
+.bg-img-text-wrapper .thumb-description {
   font-size: 13px;
   line-height: 1.69;
   text-align: center;
   color: #ffffff;
-  transform: translateY(-55px);
 }
-/* ANIMATE */
-
 .col:hover .thumb-anim,
 .col:hover .thumb-title {
   transform: translateY(0);
 }
-
+.col span {
+  position: relative;
+  left: 50%;
+}
 /***************Start of Alumni screens  styles*************/
 .alumni_community_wrapper {
   margin-top: 40px;
