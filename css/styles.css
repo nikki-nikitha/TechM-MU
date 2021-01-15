@@ -590,6 +590,9 @@ hr {
 .new-link {
   text-align: center;
 }
+.view-event-link {
+  padding-bottom: 130px;
+}
 .view-all {
   color: #d0313f !important;
   text-decoration: none;
@@ -637,7 +640,7 @@ hr {
 .research-wrapper .carousel-item > div {
   width: 431px;
   height: 450px;
-  margin: 0px 113px 64px;
+  margin: 0px 0 64px 167px;
   padding: 0 0 0 64px;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -676,7 +679,7 @@ hr {
   width: 755px !important;
   height: 450px;
   float: right;
-  margin-right: 121px;
+  margin-right: 167px;
 }
 .research-wrapper .carousel-indicators {
   bottom: -66px;
@@ -686,7 +689,6 @@ hr {
 /***************Start of Success stories styles*************/
 .success-wrapper {
   overflow: hidden;
-  position: relative;
 }
 .success-wrapper > div {
   background-image: url("../images/rise.png");
@@ -724,10 +726,10 @@ hr {
 }
 .success-story {
   background-color: #ffffff;
-  position: absolute;
+  position: relative;
   width: 590px;
-  top: 330px;
-  right: 365px;
+  left: 35%;
+  margin-top: -10%;
   padding: 30px 0 0 66px;
 }
 .success-story p {
@@ -765,7 +767,7 @@ hr {
 }
 .success-details {
   position: relative;
-  top: 250px;
+  margin-top: 5%;
 }
 .success-info {
   width: 125px;
@@ -780,7 +782,7 @@ hr {
   font-size: 36px;
 }
 .success-placements {
-  padding-top: 35%;
+  padding-top: 25%;
 }
 .success-placements h4 {
   font-size: 36px;
@@ -821,6 +823,7 @@ hr {
 /***************Start of Footer styles*************/
 footer {
   overflow: hidden;
+  margin-top: -5%;
 }
 .footer-section {
   background-image: url("../images/bg.svg");
@@ -1423,7 +1426,7 @@ ul.institute,
 }
 .program-structure-wrapper > div {
   background-color: #f6f8f9;
-  padding: 67px 0;
+  padding: 67px 0 98px;
 }
 .program-structure-wrapper h4 {
   font-size: 36px;
@@ -1561,7 +1564,7 @@ ul.institute,
   overflow: hidden;
 }
 .testimonial-section > div {
-  padding: 67px 115px;
+  padding: 67px 115px 120px;
   background-color: #2f3437;
   display: flex;
   justify-content: center;
@@ -1606,6 +1609,7 @@ ul.institute,
 .fee-wrapper > div {
   background-color: #ffffff;
   margin: 0 50px;
+  padding-bottom: 67px;
 }
 .fee-structure-block {
   padding: 25px;
@@ -2594,14 +2598,26 @@ ul.institute,
 .event-title {
   width: 360px !important;
 }
+.event-detail-img-wrapper {
+  position: relative;
+  margin-top: -35%;
+}
+.event-detail-img-wrapper img {
+  width: 584px;
+}
 .event-btn {
-  float: right;
   margin-right: 130px;
   margin-top: 33px;
   border-radius: 3px;
   border: solid 2px #d0313f;
   font-weight: 500;
   line-height: 1.25;
+  width: 189px;
+  height: 31px;
+  margin-left: 25%;
+}
+.event-footer {
+  margin-top: 7%;
 }
 /***************End of Events screens styles*************/
 
@@ -2637,6 +2653,9 @@ ul.institute,
 }
 .loan-section {
   margin-top: 67px;
+}
+.loan-section > div {
+  padding-bottom: 130px;
 }
 .loan-section h4 {
   width: 351px;
@@ -2726,6 +2745,9 @@ ul.institute,
 }
 .academy-faculty-wrapper .specialisation-block p {
   width: 363px;
+}
+.email {
+  width: 88%;
 }
 .faculty-view {
   text-align: center;
