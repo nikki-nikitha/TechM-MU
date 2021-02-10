@@ -1,4 +1,10 @@
-body,
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  font-family: Montserrat;
+  padding: 0;
+}
 p,
 h1,
 h2,
@@ -32,7 +38,7 @@ a:hover {
 }
 
 .first-nav {
-  padding: 0px 25px 0px 25px;
+  padding: 0px 50px;
 }
 .first-nav-li {
   padding-right: 17px;
@@ -49,7 +55,7 @@ a:hover {
   height: 68px;
   background-color: #ffffff;
   /* padding-top: 17px; */
-  padding: 17px 50px 0;
+  padding: 17px 70px 0;
 }
 .second-nav img {
   height: 51px;
@@ -226,13 +232,14 @@ a:hover {
 /***************End of Header styles*************/
 
 /***************Start of Banner styles****************/
-.banner-wrapper {
+/* .banner-wrapper {
   padding: 60px 50px;
   overflow: hidden;
-}
+} */
 .mail-info {
   position: relative;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
+  padding: 60px 70px;
 }
 .mail-info .mailid {
   transform: rotate(-90deg);
@@ -243,15 +250,20 @@ a:hover {
   color: #000000;
   margin: 0;
   position: absolute;
-  top: 80px;
-  left: -80px;
+  /* top: 80px;
+  left: -80px; */
+  top: 140px;
+  left: -5px;
 }
 .mail-info img {
   position: absolute;
-  top: 210px;
+  /* top: 210px; */
+  top: 270px;
+  left: 75px;
 }
 .content {
-  padding-left: 148px;
+  /* padding-left: 148px; */
+  padding-left: 185px;
 }
 .content p {
   font-size: 16px;
