@@ -2009,7 +2009,7 @@ ul.institute,
 /***************Start of MU-gallery styles*************/
 /***************MU gallery styles starts***************/
 .MU-gallery-wrapper {
-  padding: 0 50px;
+  padding: 0 157px;
   overflow: hidden;
 }
 .MU-gallery-wrapper .gallery-titles {
@@ -2104,11 +2104,11 @@ ul.institute,
   border-radius: 5px;
   box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
   border: solid 2.4px #f5f5f5;
-  margin: 0 20px;
+  margin: 0;
 }
-.MU-gallery-cards .card:first-child {
+/* .MU-gallery-cards .card:first-child {
   margin-left: 0;
-}
+} */
 .MU-gallery-cards .card-img-top {
   /* width: 320px; */
   height: 187px;
@@ -2477,7 +2477,7 @@ ul.institute,
 /***************Start of MU-Internships styles*************/
 /***************MU Internships styles start***************/
 .intern-wrapper {
-  padding: 0 50px;
+  padding: 0 157px;
   overflow: hidden;
 }
 .intern-wrapper > div {
@@ -2530,7 +2530,7 @@ ul.institute,
   margin: 20px auto 45px;
 }
 .institute-block {
-  padding: 0 60px;
+  padding: 0 157px;
 }
 .institute-block p {
   font-size: 15px;
@@ -2548,6 +2548,7 @@ ul.institute,
   color: #6c7787;
   list-style-type: none;
   width: 33%;
+  padding: 0;
 }
 .institute-block ul .tick-mark {
   background: url("../images/tick.svg") no-repeat left center;
@@ -2699,7 +2700,7 @@ ul.institute,
 }
 .event-detail-img-wrapper {
   position: relative;
-  margin-left: -8%;
+  margin-left: -31%;
 }
 .event-detail-img-wrapper img {
   width: 584px;
@@ -2709,7 +2710,7 @@ ul.institute,
   width: 189px;
   position: absolute;
   bottom: -550px;
-  right: 185px;
+  right: 135px;
   margin-top: 33px;
   border-radius: 3px;
   border: solid 2px #d0313f;
@@ -4321,7 +4322,7 @@ h2 {
   transition: 0.5s;
   transform: translateY(-100%);
   font-size: 20px;
-  line-height: 2.35;
+  /* line-height: 2.35; */
   font-weight: 400;
   text-align: center;
 }
@@ -4421,6 +4422,12 @@ h2 {
 #carphdeer .card-body p a {
   font-weight: 500;
   color: #d0313f;
+}
+.release-sec {
+  padding-bottom: 50px;
+}
+.recruit{
+  padding: 0 157px;
 }
 /** Navbar CSS Start**/
 .bg-dark {
