@@ -2142,7 +2142,7 @@ ul.institute,
 /***************Start of MU-departments styles*************/
 /***************MU departments styles starts***************/
 .MU-departments-wrapper {
-  padding: 0 50px;
+  padding: 0 150px;
   overflow: hidden;
 }
 .MU-departments-wrapper .departments-titles {
@@ -2229,8 +2229,8 @@ ul.institute,
   padding-top: 60px;
 }
 .MU-departments-cards .card {
-  width: 360px;
-  height: 413px;
+  width: 287px;
+  height: auto;
   margin: 0 20px;
   padding: 35px 30px;
   border-radius: 5px;

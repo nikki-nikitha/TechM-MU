@@ -16,6 +16,7 @@
 
 .breadcrumb{
   padding: 2px 15px;
+  height: auto;
 
 }
   .MU-gallery-cards {
@@ -40,7 +41,7 @@
 }
 .subtitle_txt{
   max-width: 100%;
-  padding-right: 10px;
+  padding: 0px 0px 34px;
 }
 .MU-gallery-cards{
   padding-bottom: 5px;
@@ -191,7 +192,7 @@
 }
 
 .fluxdirection-m{
-  flex-direction: column;
+  flex-direction: column !important;
 }
 
 .w-50{
@@ -337,5 +338,87 @@
 
 .specialisation-ppl {
  padding-bottom: 3px; 
+}
+
+.leader_gover_wrapper {
+  padding: 10px 20px;
+}
+.leader_gover_council p {
+  width: 100%;
+  font-size: 15px;
+  line-height: 1.73;
+  color: #6c7787;
+  padding-top: 25px;
+}
+.nonshow_m{
+  display: none;
+}
+.alumni_council_events_first_img {
+  margin-right: 0px
+}
+.banner-icon h1, h2 {
+  text-align: left;
+  width: 100%;
+}
+.alumni_council_events_tilte h2 {
+  margin: 20px 0px 15px 9px;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #6c7787;
+  width: 100%;
+}
+.images_m{
+  margin: 0px 30px;
+}
+.alumni_council_events_tilte.images_m h1, h2{
+  text-align: left;
+}
+.pl-30{
+  padding: 0px 30px;
+}
+.upcome-event-sub-tile {
+  font-size: 15px;
+  line-height: 1.4;
+  text-align: center;
+  color: #6c7787;
+  width: 100%;
+  padding: 0px 20px;
+}
+.MU-departments-wrapper {
+  padding: 0 20px;
+  overflow: hidden;
+}
+.MU-departments-cards .card {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0px;
+  /* margin: 0 20px; */
+  padding: 35px 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgb(189 195 200 / 16%);
+  border: solid 2.4px #f5f5f5;
+  background-color: #ffffff;
+}
+.MU-departments-cards .card {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  margin-top: 10px;
+  padding: 35px 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgb(189 195 200 / 16%);
+  border: solid 2.4px #f5f5f5;
+  background-color: #ffffff;
+}
+.MU-departments-cards {
+  padding-top: 0px;
+}
+
+.MU-departments-wrapper .title {
+  width: 100%;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.31;
+  color: #6c7787;
 }
 }
