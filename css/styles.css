@@ -1105,7 +1105,7 @@ ul.nav.nav-pills {
   font-size: 15px;
   line-height: 1.73;
   color: #6c7787;
-  width: 590px;
+  width: 100%;
   padding-bottom: 30px;
 }
 .about-title span {
@@ -3244,6 +3244,20 @@ ul.institute,
   font-weight: 500;
   color: #000000;
 }
+.researchupcome-event-tile span:first-child {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.42;
+  text-align: center;
+  color: #6c7787;
+}
+.researchupcome-event-tile span:last-child {
+  font-size: 36px;
+  line-height: 1.42;
+  text-align: center;
+  font-weight: 500;
+  color: #000000;
+}
 .alumni-img {
   width: 100%;
   overflow: hidden;
@@ -3692,7 +3706,7 @@ ul.institute,
 
 /** Start of Campus library Activity Screen **/
 .library-wrapper {
-  padding: 65px 50px 50px;
+  padding: 0px 150px;
   overflow: hidden;
 }
 .libary-align {
@@ -3757,11 +3771,12 @@ ul.institute,
 
 /** Start of Campus Overview ctivity Screen **/
 .campus-overview-wrapper {
-  padding: 20px 50px 115px 50px;
+  padding: 0px 150px;
   overflow: hidden;
 }
 .campus-overview-img :first-child {
   margin-right: 20px;
+  width: 445px;
 }
 .campus-overview-img :last-child {
   float: right;
@@ -3770,6 +3785,10 @@ ul.institute,
 
 .campus-overview-secd-img :first-child {
   margin: 90px 0px 20px 0px;
+}
+.campus-overview-secd-img :last-child{
+  width: 491px;
+
 }
 
 .subtitle_txt span {
